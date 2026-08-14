@@ -36,9 +36,9 @@ public class streamapi {
         */
         /*
          single line working :
-         int res= nums.stream();
-                      .filter(n->n%2==0);
-                      .map(n->n*2);
+         int res= nums.stream()
+                      .filter(n->n%2==0)
+                      .map(n->n*2)
                       .reduce(0,(c,e)->c+e);
         */
     }
